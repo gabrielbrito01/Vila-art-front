@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Feira de Artesanato Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+A **Feira de Artesanato Web** é uma plataforma projetada para promover artesãos locais e suas criações. O site permite que visitantes explorem os produtos artesanais, conheçam as histórias dos artesãos, e descubram como apoiar esses artistas diretamente. A aplicação é simples, responsiva e otimizada para uma experiência de usuário agradável em diferentes dispositivos.
 
-## Available Scripts
+## Funcionalidades Principais
+1. **Página Inicial (Home)**: Apresenta um slideshow dinâmico de imagens e seções destacando:
+   - A Feira de Artesanato
+   - Localização da feira
+   - Informações sobre como apoiar os artesãos.
+   
+2. **Feira de Artesanato (Feira)**: Página que lista os produtos artesanais em exposição e uma descrição do evento, incentivando os visitantes a conhecerem mais sobre a feira.
 
-In the project directory, you can run:
+3. **Perfil dos Artesãos (Artisan)**: Cada artesão possui uma página individual com:
+   - Imagem de perfil
+   - Descrição do artesão
+   - Produtos oferecidos
 
-### `npm start`
+4. **Apoio aos Artesãos (Apoio)**: Página dedicada a explicar a importância de apoiar os artesãos locais e como os visitantes podem contribuir financeiramente ou por meio de compras.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como Executar o Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pré-requisitos
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-### `npm test`
+  - Instale as dependências do projeto
+  - cd feira-artesanato
+  - npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Execute o servidor de desenvolvimento**:
+  - npm start
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

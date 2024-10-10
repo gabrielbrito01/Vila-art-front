@@ -1,0 +1,87 @@
+.apoio {
+    font-family: 'Roboto', sans-serif;
+    color: #34495E;
+    text-align: center;
+    background-color: #F7F9F9;
+    padding: 60px 0;
+  }
+  
+  .apoio-header {
+    margin-bottom: 40px;
+  }
+  
+  .apoio-header h1 {
+    font-size: 3rem;
+    color: #2C3E50;
+  }
+  
+  .apoio-header p {
+    font-size: 1.3rem;
+    color: #7F8C8D;
+  }
+  
+  .apoio-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .apoio-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .apoio-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #E74C3C;
+  }
+  
+  .apoio-info p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #7F8C8D;
+  }
+  
+  .apoio-image {
+    flex: 1;
+  }
+  
+  .apoio-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .btn-primary {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980B9;
+    transform: translateY(-2px);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .apoio-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .apoio-info {
+      text-align: center;
+    }
+  }
+  
